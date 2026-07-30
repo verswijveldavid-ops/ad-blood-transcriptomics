@@ -1,5 +1,7 @@
 # Blood transcriptomics in Alzheimer's disease
 
+[![Validate project](https://github.com/verswijveldavid-ops/ad-blood-transcriptomics/actions/workflows/validate.yml/badge.svg)](https://github.com/verswijveldavid-ops/ad-blood-transcriptomics/actions/workflows/validate.yml)
+
 A complete, reproducible RNA-seq analysis of the public
 [GSE249477](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE249477)
 peripheral-blood dataset. The project combines a documented FASTQ-to-count
@@ -111,3 +113,7 @@ procedures use seed 42. Generated tables and figures are retained in `results/`.
 - PyDESeq2: [doi:10.1093/bioadv/vbad037](https://doi.org/10.1093/bioadv/vbad037)
 - GSEA: [doi:10.1073/pnas.0506580102](https://doi.org/10.1073/pnas.0506580102)
 
+## License
+
+The analysis code is available under the [MIT License](LICENSE). Source data
+remain subject to the terms of their original providers.
