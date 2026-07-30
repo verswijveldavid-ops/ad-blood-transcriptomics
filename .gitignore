@@ -1,0 +1,20 @@
+.DS_Store
+.venv/
+.jupyter/
+.ipython/
+.matplotlib/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Official public inputs are reproducibly downloaded by scripts/download_data.py
+data/raw/*
+!data/raw/.gitkeep
+
+# Large raw/intermediate sequencing files
+*.fastq
+*.fastq.gz
+*.sam
+*.bam
+*.bai
+
